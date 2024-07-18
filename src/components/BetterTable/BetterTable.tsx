@@ -64,7 +64,7 @@ const data = [
 
 const BetterTable = () => {
   return (
-    <div className="why-table-container mx-auto flex max-w-[1000px] flex-col px-[2px] pb-[2px]">
+    <div className="why-table-container container mx-auto flex flex-col px-[2px] pb-[2px]">
       <div className="py-2 text-center font-inter text-xs font-semibold text-[#5DCA7B]">
         Opening account with Double is free for everyone!
       </div>
@@ -119,8 +119,11 @@ const BetterTable = () => {
           <TableBody>
             {data.map((row, index) => (
               <TableRow
-                className="flex border-b-[#60c17a] border-opacity-10 p-0"
+                className="flex p-0"
                 key={index}
+                style={{
+                  borderBottom: '1px solid rgba(113, 113, 113, 0.1)',
+                }}
               >
                 <TableCell
                   className={cn(
