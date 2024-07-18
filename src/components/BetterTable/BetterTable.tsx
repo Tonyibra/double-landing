@@ -64,7 +64,7 @@ const data = [
 
 const BetterTable = () => {
   return (
-    <div className="why-table-container container mx-auto flex flex-col px-[2px] pb-[2px]">
+    <div className="why-table-container mx-auto flex w-full max-w-[1000px] flex-col px-[2px] pb-[2px]">
       <div className="py-2 text-center font-inter text-xs font-semibold text-[#5DCA7B]">
         Opening account with Double is free for everyone!
       </div>

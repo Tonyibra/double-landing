@@ -45,7 +45,10 @@ const Footer = () => {
               </h4>
               <ul className="space-y-2">
                 {section.items.map((item, idx) => (
-                  <li className="font-inter text-sm text-[#949C99]" key={idx}>
+                  <li
+                    className="cursor-pointer font-inter text-sm text-[#949C99]"
+                    key={idx}
+                  >
                     {item}
                   </li>
                 ))}
@@ -54,7 +57,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="footer-divider h-[1px] w-full" />
+      <div className="footer-divider container h-[1px] w-[80%]" />
       <div className="container mx-auto flex items-center justify-between font-inter">
         <div className="flex items-center gap-6">
           <div className="text-xs font-normal leading-normal text-white opacity-50">
