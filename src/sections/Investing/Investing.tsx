@@ -79,7 +79,7 @@ const Investing = () => {
           </div>
         </div>
         <div className="bg-track-idea-bg mb-[100px] bg-cover bg-no-repeat py-[50px]">
-          <div className="px-[70px]">
+          <div className="flex items-center justify-center px-[70px]">
             <SectionsTitle
               descriptionStyle="text-left mx-0  w-full"
               containerStyle="gap-3 text-left items-start"

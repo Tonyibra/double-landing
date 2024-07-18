@@ -41,7 +41,9 @@ const NavBar = () => {
         </div>
         <ul className="flex items-center gap-8">
           {navbarList.map(({ id, label }) => (
-            <ListButton>{label}</ListButton>
+            <ListButton key={id} href="">
+              {label}
+            </ListButton>
           ))}
         </ul>
         <div className="flex items-center gap-2">

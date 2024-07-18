@@ -85,6 +85,9 @@ const config = {
         'responsive-title': 'clamp(2.5rem, 5vw, 4.5rem)',
         'responsive-section-title': 'clamp(1.25rem, 5vw, 2.75rem)',
       },
+      lineHeight: {
+        'responsive-line-height-title': 'clamp(1.5rem, 5vw, 3.125rem)',
+      },
       padding: {
         'responsive-x': 'clamp(1rem, 4.17vw, 3.75rem)',
       },

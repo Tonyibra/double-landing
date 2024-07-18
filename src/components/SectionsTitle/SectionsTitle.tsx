@@ -20,7 +20,7 @@ const SectionsTitle: React.FC<SectionsTitleProps> = ({
       className={`mb-[40px] flex flex-col gap-4 text-center ${containerStyle}`}
     >
       <div
-        className={`text-center font-reckless text-responsive-section-title font-normal text-[#163421] ${titleStyle}`}
+        className={`leading-responsive-line-height-title text-center font-reckless text-responsive-section-title font-normal text-[#163421] ${titleStyle}`}
       >
         {title}
       </div>
