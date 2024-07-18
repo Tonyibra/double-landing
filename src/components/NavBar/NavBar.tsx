@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import { Button } from '../ui/button';
+import { ListButton } from '../ListButton';
 
 const navbarList = [
   {
@@ -29,7 +30,7 @@ const navbarList = [
 const NavBar = () => {
   return (
     <nav className="bg-[#F5F5EB]">
-      <div className="px-responsive-x flex flex-row items-center justify-between py-8">
+      <div className="flex flex-row items-center justify-between px-responsive-x py-8">
         <div className="relative h-[19px] w-[117px]">
           <Image
             src={'/logo.svg'}
@@ -40,12 +41,7 @@ const NavBar = () => {
         </div>
         <ul className="flex items-center gap-8">
           {navbarList.map(({ id, label }) => (
-            <li
-              className="text-appBlack cursor-pointer text-xs font-semibold"
-              key={id}
-            >
-              {label}
-            </li>
+            <ListButton>{label}</ListButton>
           ))}
         </ul>
         <div className="flex items-center gap-2">

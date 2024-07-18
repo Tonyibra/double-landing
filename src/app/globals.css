@@ -156,3 +156,15 @@
     rgba(255, 255, 255, 0) 89.24%
   );
 }
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to left, #5dca7b, #163421);
+  transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
